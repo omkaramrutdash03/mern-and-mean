@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+   nav a {
+      text-decoration: none;
+      padding: 20px;
+      text-align: center;
+      float: left;
+      color: black;
+   }
+   nav a:hover{
+      border: 2px solid white;
+      background-color: black;
+      color: #000000;
+   }
+   nav {
+      background-color: #39a520;
+      overflow: hidden;
+      position: sticky;
+      top: 0px;
+   }
+</style>
 <body>
-    <table border="1" >
-        <tr>
-            <th>sl.no</th>
-            <th>Name</th>
-            <th>Gender</th>
-            <th>Branch</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>omkar</td>
-            <td>male</td>
-            <td>ECE</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>michael</td>
-            <td>Male</td>
-            <td>CSE</td>
-        </tr>
-    </table>
+    <h1 style = "position : fixed; left : 100px; right : 100px; border : 20px; color :rgb(217, 17, 17); text-align: center;">Welcome User!!</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About US</a>
+        <a href="#">Contact</a>
+    </nav>
+      <h1>photo gallery</h1>
+      <button id="clickable">click me</button>
+      <div id="show1"></div>
     <div id="showable">
-        <textarea name="" id="content" cols="30" rows="10"></textarea>
-        <button id="clickable1">click me</button>
-        <button id="clickable2">Dont click me</button>
         <table  >
+            <caption>Studet data</caption>
             <tr>
                 <th>sl.no</th>
                 <th>Name</th>
@@ -60,16 +67,26 @@
                 <td>4</td>
                 <td>Pallav</td>
                 <td>female</td>
-                <td>boycott jee neet</td>
+                <td>bca</td>
             </tr>
         </table>
+        <br>
+        <button id="clickable1">click me</button>
+        <button id="clickable2">reset</button>
     </div>
-    <div style = "border : 2px solid black; width : 800px; height : 100px; position : relative; top : 0; right : 0;
+    <!--<div style = "border : 2px solid black; width : 800px; height : 100px; position : relative; top : 0; right : 0;
     left : 0; margin-top: 100px; margin-left: 100px;">
         <h1 style = "position : fixed; left : 100px; right : 100px; border : 20px; color : white; text-align: center;z-index: 0;">omkar</h1>
         <img src ="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt = "img" >
     </div>
-<button id="clickable">click me</button>
+   -->
+   <br>
+   <div id="show">
+      <textarea name="content" id="content" cols="100" rows="5"></textarea><br>
+      <button id="clickable3">Show</button>
+      <button id="clickable4">Remove</button>
+    </div>
+   <br>
 </body>
 <script src="index.js"></script>
 </html>
