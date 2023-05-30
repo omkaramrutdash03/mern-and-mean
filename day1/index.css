@@ -1,0 +1,19 @@
+/* #abc{ 
+    color: azure;
+    height: 500px;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid chartreuse;
+    width: 50%;
+}*/
+#abc{ 
+    color: rgb(41, 208, 208);
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 50%;
+}
