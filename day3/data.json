@@ -1,0 +1,14 @@
+{
+    "mydata": [
+        {
+            "image":"https://m.media-amazon.com/images/M/MV5BNGZlNTFlOWMtMzUwNC00ZDdhLTk0MWUtOGZjYzFlOTBmNDdhXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_.jpg",
+            "title":"pushpa",
+            "rating":5
+        },
+        {
+            "image":"https://m.media-amazon.com/images/M/MV5BNGZlNTFlOWMtMzUwNC00ZDdhLTk0MWUtOGZjYzFlOTBmNDdhXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_.jpg",
+            "title":"pushpa",
+            "rating":5
+        }
+    ]
+}
