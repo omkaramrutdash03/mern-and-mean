@@ -36,14 +36,21 @@ const data=[
      }
 ]
 const moviebox=document.getElementById("showmovies");
-for(let i=0;i< data.length;i++){
-    const div=document.createElement("div");
-    const image=document.createElement("img");
-    image.src=data[i].image;
-    const movietitle=document.createElement("h3");
-    movietitle.innerText=data[i].title;
-    const rating=document.createElement("p");
-    rating.innerText=data[i].rating;
-    div.append(image,movietitle,rating);
+data.map((el) => {
+    const div = document.createElement("div");
+    const image = document.createElement("img");
+    image.src = el.image;
+    const movieTitle = document.createElement("h3");
+    movieTitle.innerText = el.title;
+    const rating = document.createElement("p");
+    rating.innerText = el.rating;
+    const button = document.createElement("button");
+    button.innerText = "Click Movie";
+    button.addEventListener("click", () => {
+        alert(`You clicked on ${el.title}`);
+    });
+    div.append(image, movieTitle, rating, button);
     moviebox.append(div);
-}
+
+
+});
