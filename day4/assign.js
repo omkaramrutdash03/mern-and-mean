@@ -18,8 +18,8 @@ function submitData(){
         .then((res)=>res.json())
         .then((data)=>{
             console.log(data);
-            alert("Created Account");
-            window.location.replace='http://127.0.0.1:5500/day4/valid.html';
+            //alert("Created Account");
+            window.location.href = './valid.html';
         })
         .catch((err)=> console.log(err));
      }
