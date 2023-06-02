@@ -19,7 +19,7 @@ function submitData(){
         .then((data)=>{
             console.log(data);
             alert("Created Account");
-            window.location.href="./valid.html";
+            window.location.replace='http://127.0.0.1:5500/day4/valid.html';
         })
         .catch((err)=> console.log(err));
      }

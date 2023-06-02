@@ -1,0 +1,16 @@
+#show{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   background-image: linear-gradient(to right,rgb(253, 253, 253),rgb(98, 0, 0));
+}
+#show img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#show img:hover{
+    width: 400px;
+    height: 400px;
+}

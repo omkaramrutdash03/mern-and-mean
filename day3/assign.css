@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #showmenu{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -35,42 +34,4 @@ nav a {
  }
  #head {
     background-color: #000000;
-=======
-#showmenu{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-   background-image: linear-gradient(to right,rgb(145, 6, 6),rgb(244, 29, 6));
-}
-#showmenu img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    box-shadow: rgba(20, 20, 20, 0.56) 0px 22px 70px 4px;
-}
-#showmenu img:hover{
-    width: 400px;
-    height: 400px;
-}
-nav a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: rgb(218, 69, 6);
- }
- nav a:hover{
-    border: 2px solid white;
-    background-color: black;
-    color: #ace20a;
- }
- nav {
-    background-color: #000000;
-    overflow: hidden;
-    position: sticky;
-    top: 0px;
- }
- #head {
-    background-color: #000000;
->>>>>>> 92dfda2ace13f010248cfb76b51584915c5389b5
  }
