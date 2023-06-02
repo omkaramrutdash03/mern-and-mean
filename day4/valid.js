@@ -15,7 +15,7 @@ function findUser() {
       if (user) {
         alert("Logged in Successfully");
       } else {
-        window.location.href = "./index.html";
+        window.location.href = "./assign.html";
       }
     });
   console.log(data);
