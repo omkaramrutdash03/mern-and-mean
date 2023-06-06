@@ -15,8 +15,11 @@ function findUser() {
       if (user) {
         alert("Logged in Successfully");
       } else {
-        window.location.href = "./assign.html";
+        alert('invalid credentials');
       }
     });
   console.log(data);
+}
+function call(){
+  window.location.href = "./assign.html";
 }

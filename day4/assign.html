@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assign.css">
 </head>
 <body>
-    <div>
-        <input type="text" placeholder="Enter Email " id="email">
-        <input type="text" placeholder="Enter Password" id="password">
+    <div class="main">
+        <div class="signup">
+            <label >Sign up</label>
+        <input type="email" placeholder="Enter Email " id="email">
+        <input type="password" placeholder="Enter Password" id="password">
         <button id="mybutton" onclick="submitData()">submit</button>
-    </div>
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: #ffff;text-align: center;">if You Already have account</p>
+        <button onclick="call()">Login</button>
+        </div>
+    </div>			
+</div>
 </body>
 <script src="assign.js"></script>
 </html>

@@ -27,3 +27,6 @@ function submitData(){
         alert("fill in the form");
      }
 }
+function call(){
+    window.location.href='./valid.html';
+}
