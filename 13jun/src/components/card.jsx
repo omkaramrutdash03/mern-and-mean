@@ -1,8 +1,8 @@
 import React from 'react'
 import './card.css';
-import {AiOutlineHeart} from "react-icons/ai";
-import {FaRegComment} from "react-icons/fa";
-import {FiSend} from "react-icons/fi";
+// import {AiOutlineHeart} from "react-icons/ai";
+// import {FaRegComment} from "react-icons/fa";
+// import {FiSend} from "react-icons/fi";
 
 function Card({username,image,rating}) {
   return (
